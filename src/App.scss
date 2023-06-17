@@ -1,0 +1,39 @@
+.app-container {
+	
+	.app-background-color {
+		background-color: #213555;
+		width: 50%;
+		height: 100vh;
+
+		.app-background-color-right {
+			background-color: #ffb84c;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			width: 50%;
+			height: 100vh;
+		}
+	}
+
+	.app-details {
+		width: 85%;
+		height: 90%;
+		background-color: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.margin-button-25 {
+	margin-bottom: 25px;
+}
+
+.margin-button-100 {
+	margin-bottom: 100px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
